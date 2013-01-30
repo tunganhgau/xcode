@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDD9B64116B9B0EE002BE025 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD9B64016B9B0EE002BE025 /* UIKit.framework */; };
+		BDD9B64316B9B0EE002BE025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD9B64216B9B0EE002BE025 /* Foundation.framework */; };
+		BDD9B64516B9B0EE002BE025 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD9B64416B9B0EE002BE025 /* CoreGraphics.framework */; };
+		BDD9B64B16B9B0EE002BE025 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDD9B64916B9B0EE002BE025 /* InfoPlist.strings */; };
+		BDD9B64D16B9B0EE002BE025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD9B64C16B9B0EE002BE025 /* main.m */; };
+		BDD9B65116B9B0EE002BE025 /* ANHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD9B65016B9B0EE002BE025 /* ANHAppDelegate.m */; };
+		BDD9B65316B9B0EE002BE025 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BDD9B65216B9B0EE002BE025 /* Default.png */; };
+		BDD9B65516B9B0EE002BE025 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDD9B65416B9B0EE002BE025 /* Default@2x.png */; };
+		BDD9B65716B9B0EE002BE025 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDD9B65616B9B0EE002BE025 /* Default-568h@2x.png */; };
+		BDD9B65A16B9B0EE002BE025 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD9B65816B9B0EE002BE025 /* MainStoryboard_iPhone.storyboard */; };
+		BDD9B65D16B9B0EE002BE025 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD9B65B16B9B0EE002BE025 /* MainStoryboard_iPad.storyboard */; };
+		BDD9B66016B9B0EE002BE025 /* ANHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD9B65F16B9B0EE002BE025 /* ANHViewController.m */; };
+		BDD9B66816B9B0EF002BE025 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD9B66716B9B0EF002BE025 /* SenTestingKit.framework */; };
+		BDD9B66916B9B0EF002BE025 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD9B64016B9B0EE002BE025 /* UIKit.framework */; };
+		BDD9B66A16B9B0EF002BE025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD9B64216B9B0EE002BE025 /* Foundation.framework */; };
+		BDD9B67216B9B0EF002BE025 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDD9B67016B9B0EF002BE025 /* InfoPlist.strings */; };
+		BDD9B67516B9B0EF002BE025 /* ButtonFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD9B67416B9B0EF002BE025 /* ButtonFunTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDD9B66B16B9B0EF002BE025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDD9B63316B9B0EE002BE025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDD9B63B16B9B0EE002BE025;
+			remoteInfo = ButtonFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDD9B63C16B9B0EE002BE025 /* ButtonFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD9B64016B9B0EE002BE025 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BDD9B64216B9B0EE002BE025 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BDD9B64416B9B0EE002BE025 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BDD9B64816B9B0EE002BE025 /* ButtonFun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonFun-Info.plist"; sourceTree = "<group>"; };
+		BDD9B64A16B9B0EE002BE025 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDD9B64C16B9B0EE002BE025 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDD9B64E16B9B0EE002BE025 /* ButtonFun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonFun-Prefix.pch"; sourceTree = "<group>"; };
+		BDD9B64F16B9B0EE002BE025 /* ANHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANHAppDelegate.h; sourceTree = "<group>"; };
+		BDD9B65016B9B0EE002BE025 /* ANHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANHAppDelegate.m; sourceTree = "<group>"; };
+		BDD9B65216B9B0EE002BE025 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BDD9B65416B9B0EE002BE025 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BDD9B65616B9B0EE002BE025 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BDD9B65916B9B0EE002BE025 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		BDD9B65C16B9B0EE002BE025 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		BDD9B65E16B9B0EE002BE025 /* ANHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANHViewController.h; sourceTree = "<group>"; };
+		BDD9B65F16B9B0EE002BE025 /* ANHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANHViewController.m; sourceTree = "<group>"; };
+		BDD9B66616B9B0EF002BE025 /* ButtonFunTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonFunTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD9B66716B9B0EF002BE025 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BDD9B66F16B9B0EF002BE025 /* ButtonFunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonFunTests-Info.plist"; sourceTree = "<group>"; };
+		BDD9B67116B9B0EF002BE025 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDD9B67316B9B0EF002BE025 /* ButtonFunTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonFunTests.h; sourceTree = "<group>"; };
+		BDD9B67416B9B0EF002BE025 /* ButtonFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonFunTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDD9B63916B9B0EE002BE025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD9B64116B9B0EE002BE025 /* UIKit.framework in Frameworks */,
+				BDD9B64316B9B0EE002BE025 /* Foundation.framework in Frameworks */,
+				BDD9B64516B9B0EE002BE025 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD9B66216B9B0EF002BE025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD9B66816B9B0EF002BE025 /* SenTestingKit.framework in Frameworks */,
+				BDD9B66916B9B0EF002BE025 /* UIKit.framework in Frameworks */,
+				BDD9B66A16B9B0EF002BE025 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDD9B63116B9B0EE002BE025 = {
+			isa = PBXGroup;
+			children = (
+				BDD9B64616B9B0EE002BE025 /* ButtonFun */,
+				BDD9B66D16B9B0EF002BE025 /* ButtonFunTests */,
+				BDD9B63F16B9B0EE002BE025 /* Frameworks */,
+				BDD9B63D16B9B0EE002BE025 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDD9B63D16B9B0EE002BE025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDD9B63C16B9B0EE002BE025 /* ButtonFun.app */,
+				BDD9B66616B9B0EF002BE025 /* ButtonFunTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDD9B63F16B9B0EE002BE025 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDD9B64016B9B0EE002BE025 /* UIKit.framework */,
+				BDD9B64216B9B0EE002BE025 /* Foundation.framework */,
+				BDD9B64416B9B0EE002BE025 /* CoreGraphics.framework */,
+				BDD9B66716B9B0EF002BE025 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDD9B64616B9B0EE002BE025 /* ButtonFun */ = {
+			isa = PBXGroup;
+			children = (
+				BDD9B64F16B9B0EE002BE025 /* ANHAppDelegate.h */,
+				BDD9B65016B9B0EE002BE025 /* ANHAppDelegate.m */,
+				BDD9B65816B9B0EE002BE025 /* MainStoryboard_iPhone.storyboard */,
+				BDD9B65B16B9B0EE002BE025 /* MainStoryboard_iPad.storyboard */,
+				BDD9B65E16B9B0EE002BE025 /* ANHViewController.h */,
+				BDD9B65F16B9B0EE002BE025 /* ANHViewController.m */,
+				BDD9B64716B9B0EE002BE025 /* Supporting Files */,
+			);
+			path = ButtonFun;
+			sourceTree = "<group>";
+		};
+		BDD9B64716B9B0EE002BE025 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDD9B64816B9B0EE002BE025 /* ButtonFun-Info.plist */,
+				BDD9B64916B9B0EE002BE025 /* InfoPlist.strings */,
+				BDD9B64C16B9B0EE002BE025 /* main.m */,
+				BDD9B64E16B9B0EE002BE025 /* ButtonFun-Prefix.pch */,
+				BDD9B65216B9B0EE002BE025 /* Default.png */,
+				BDD9B65416B9B0EE002BE025 /* Default@2x.png */,
+				BDD9B65616B9B0EE002BE025 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDD9B66D16B9B0EF002BE025 /* ButtonFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDD9B67316B9B0EF002BE025 /* ButtonFunTests.h */,
+				BDD9B67416B9B0EF002BE025 /* ButtonFunTests.m */,
+				BDD9B66E16B9B0EF002BE025 /* Supporting Files */,
+			);
+			path = ButtonFunTests;
+			sourceTree = "<group>";
+		};
+		BDD9B66E16B9B0EF002BE025 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDD9B66F16B9B0EF002BE025 /* ButtonFunTests-Info.plist */,
+				BDD9B67016B9B0EF002BE025 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDD9B63B16B9B0EE002BE025 /* ButtonFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD9B67816B9B0EF002BE025 /* Build configuration list for PBXNativeTarget "ButtonFun" */;
+			buildPhases = (
+				BDD9B63816B9B0EE002BE025 /* Sources */,
+				BDD9B63916B9B0EE002BE025 /* Frameworks */,
+				BDD9B63A16B9B0EE002BE025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonFun;
+			productName = ButtonFun;
+			productReference = BDD9B63C16B9B0EE002BE025 /* ButtonFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDD9B66516B9B0EF002BE025 /* ButtonFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD9B67B16B9B0EF002BE025 /* Build configuration list for PBXNativeTarget "ButtonFunTests" */;
+			buildPhases = (
+				BDD9B66116B9B0EF002BE025 /* Sources */,
+				BDD9B66216B9B0EF002BE025 /* Frameworks */,
+				BDD9B66316B9B0EF002BE025 /* Resources */,
+				BDD9B66416B9B0EF002BE025 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDD9B66C16B9B0EF002BE025 /* PBXTargetDependency */,
+			);
+			name = ButtonFunTests;
+			productName = ButtonFunTests;
+			productReference = BDD9B66616B9B0EF002BE025 /* ButtonFunTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDD9B63316B9B0EE002BE025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ANH;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Anh Nguyen";
+			};
+			buildConfigurationList = BDD9B63616B9B0EE002BE025 /* Build configuration list for PBXProject "ButtonFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BDD9B63116B9B0EE002BE025;
+			productRefGroup = BDD9B63D16B9B0EE002BE025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDD9B63B16B9B0EE002BE025 /* ButtonFun */,
+				BDD9B66516B9B0EF002BE025 /* ButtonFunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDD9B63A16B9B0EE002BE025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD9B64B16B9B0EE002BE025 /* InfoPlist.strings in Resources */,
+				BDD9B65316B9B0EE002BE025 /* Default.png in Resources */,
+				BDD9B65516B9B0EE002BE025 /* Default@2x.png in Resources */,
+				BDD9B65716B9B0EE002BE025 /* Default-568h@2x.png in Resources */,
+				BDD9B65A16B9B0EE002BE025 /* MainStoryboard_iPhone.storyboard in Resources */,
+				BDD9B65D16B9B0EE002BE025 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD9B66316B9B0EF002BE025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD9B67216B9B0EF002BE025 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BDD9B66416B9B0EF002BE025 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDD9B63816B9B0EE002BE025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD9B64D16B9B0EE002BE025 /* main.m in Sources */,
+				BDD9B65116B9B0EE002BE025 /* ANHAppDelegate.m in Sources */,
+				BDD9B66016B9B0EE002BE025 /* ANHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD9B66116B9B0EF002BE025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD9B67516B9B0EF002BE025 /* ButtonFunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDD9B66C16B9B0EF002BE025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDD9B63B16B9B0EE002BE025 /* ButtonFun */;
+			targetProxy = BDD9B66B16B9B0EF002BE025 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDD9B64916B9B0EE002BE025 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDD9B64A16B9B0EE002BE025 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BDD9B65816B9B0EE002BE025 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDD9B65916B9B0EE002BE025 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BDD9B65B16B9B0EE002BE025 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDD9B65C16B9B0EE002BE025 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BDD9B67016B9B0EF002BE025 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDD9B67116B9B0EF002BE025 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDD9B67616B9B0EF002BE025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDD9B67716B9B0EF002BE025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDD9B67916B9B0EF002BE025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonFun/ButtonFun-Prefix.pch";
+				INFOPLIST_FILE = "ButtonFun/ButtonFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BDD9B67A16B9B0EF002BE025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonFun/ButtonFun-Prefix.pch";
+				INFOPLIST_FILE = "ButtonFun/ButtonFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BDD9B67C16B9B0EF002BE025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ButtonFun.app/ButtonFun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonFun/ButtonFun-Prefix.pch";
+				INFOPLIST_FILE = "ButtonFunTests/ButtonFunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BDD9B67D16B9B0EF002BE025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ButtonFun.app/ButtonFun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonFun/ButtonFun-Prefix.pch";
+				INFOPLIST_FILE = "ButtonFunTests/ButtonFunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDD9B63616B9B0EE002BE025 /* Build configuration list for PBXProject "ButtonFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD9B67616B9B0EF002BE025 /* Debug */,
+				BDD9B67716B9B0EF002BE025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD9B67816B9B0EF002BE025 /* Build configuration list for PBXNativeTarget "ButtonFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD9B67916B9B0EF002BE025 /* Debug */,
+				BDD9B67A16B9B0EF002BE025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDD9B67B16B9B0EF002BE025 /* Build configuration list for PBXNativeTarget "ButtonFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD9B67C16B9B0EF002BE025 /* Debug */,
+				BDD9B67D16B9B0EF002BE025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDD9B63316B9B0EE002BE025 /* Project object */;
+}
