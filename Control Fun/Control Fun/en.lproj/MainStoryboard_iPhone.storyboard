@@ -8,7 +8,7 @@
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="ANHViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3">
+                    <view key="view" contentMode="scaleToFill" id="3" customClass="UIControl">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
@@ -17,14 +17,86 @@
                                     <constraint firstAttribute="height" constant="157" id="Vfu-aR-5Ix"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1KQ-GC-dqk">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="XRa-0H-irs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type your name here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Td8-hU-4bI">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="209" id="OzO-PZ-kXP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="textFieldDoneEditing:" destination="2" eventType="editingDidEndOnExit" id="TlA-2j-Ncx"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Number:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGd-74-1m2">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="66" id="aaF-rE-cZg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type in a number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CSe-Q3-A3K">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="QdG-q2-yFH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="textFieldDoneEditing:" destination="2" eventType="editingDidEndOnExit" id="C2g-0W-nWZ"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="50" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kod-G0-aqr">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="I6G-Mq-CmS">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="206" id="rI1-nH-GiX"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="valueChanged:" destination="2" eventType="valueChanged" id="8l5-Fz-FWR"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="1KQ-GC-dqk" firstAttribute="baseline" secondItem="Td8-hU-4bI" secondAttribute="baseline" type="default" id="0pV-Gs-Vos"/>
                             <constraint firstItem="5fn-NC-B7o" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="3nZ-5L-apv"/>
+                            <constraint firstItem="I6G-Mq-CmS" firstAttribute="centerY" secondItem="3" secondAttribute="centerY" type="default" id="4Yt-av-614"/>
+                            <constraint firstItem="kod-G0-aqr" firstAttribute="trailing" secondItem="1KQ-GC-dqk" secondAttribute="trailing" type="default" id="FWy-9Y-Do3"/>
+                            <constraint firstItem="I6G-Mq-CmS" firstAttribute="centerX" secondItem="Td8-hU-4bI" secondAttribute="centerX" type="default" id="I9T-P4-txm"/>
+                            <constraint firstItem="bGd-74-1m2" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="V5L-CU-yhh"/>
+                            <constraint firstItem="CSe-Q3-A3K" firstAttribute="baseline" secondItem="bGd-74-1m2" secondAttribute="baseline" type="default" id="VfE-Uy-ADb"/>
+                            <constraint firstItem="1KQ-GC-dqk" firstAttribute="top" secondItem="Td8-hU-4bI" secondAttribute="top" type="default" id="apm-PY-E2p"/>
+                            <constraint firstItem="1KQ-GC-dqk" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="32" id="gga-qx-GO9"/>
                             <constraint firstAttribute="trailing" secondItem="5fn-NC-B7o" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="ly8-6J-pn7"/>
+                            <constraint firstItem="1KQ-GC-dqk" firstAttribute="top" secondItem="3" secondAttribute="top" constant="186" id="pgg-IM-vHz"/>
                             <constraint firstItem="5fn-NC-B7o" firstAttribute="top" secondItem="3" secondAttribute="top" constant="13" id="sTb-Pf-6XK"/>
+                            <constraint firstItem="CSe-Q3-A3K" firstAttribute="leading" secondItem="bGd-74-1m2" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="u0k-4A-uJt"/>
+                            <constraint firstItem="bGd-74-1m2" firstAttribute="top" secondItem="3" secondAttribute="top" constant="228" id="uCL-00-d82"/>
+                            <constraint firstItem="CSe-Q3-A3K" firstAttribute="top" secondItem="Td8-hU-4bI" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="uEp-Eu-jeI"/>
+                            <constraint firstItem="kod-G0-aqr" firstAttribute="top" secondItem="I6G-Mq-CmS" secondAttribute="top" type="default" id="vfz-jG-rIi"/>
+                            <constraint firstItem="Td8-hU-4bI" firstAttribute="leading" secondItem="CSe-Q3-A3K" secondAttribute="leading" type="default" id="yLc-x2-wd9"/>
+                            <constraint firstAttribute="trailing" secondItem="CSe-Q3-A3K" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="yTK-wB-f8q"/>
                         </constraints>
+                        <connections>
+                            <action selector="backgroundTap:" destination="2" eventType="touchDown" id="nO7-5u-Bye"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="nameField" destination="Td8-hU-4bI" id="MFR-OP-mdg"/>
+                        <outlet property="numberField" destination="CSe-Q3-A3K" id="Neu-pk-jHA"/>
+                        <outlet property="slideValue" destination="kod-G0-aqr" id="eLg-Cz-xei"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
@@ -36,6 +108,14 @@
     <classes>
         <class className="ANHViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ANHViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="backgroundTap:"/>
+                <relationship kind="action" name="textFieldDoneEditing:"/>
+                <relationship kind="action" name="valueChanged:" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="nameField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="numberField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="slideValue" candidateClass="UILabel"/>
+            </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>

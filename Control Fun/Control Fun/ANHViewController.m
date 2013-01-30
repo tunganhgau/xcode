@@ -26,4 +26,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)textFieldDoneEditing:(id)sender{
+    [sender resignFirstResponder];
+}
+
+- (IBAction)backgroundTap:(id)sender{
+    [self.nameField resignFirstResponder];
+    [self.numberField resignFirstResponder];
+}
+
+- (IBAction)valueChanged:(UISlider *)sender{
+    int value = lroundf(sender.value);
+    self.slideValue.text = [NSString stringWithFormat:@"%d",value];
+}
+
 @end
