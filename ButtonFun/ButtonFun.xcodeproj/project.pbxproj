@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD21CE7D16B9B5EE004C1C5B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BD21CE7C16B9B5EE004C1C5B /* icon.png */; };
+		BD21CE8016B9B5F0004C1C5B /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD21CE7F16B9B5F0004C1C5B /* icon@2x.png */; };
 		BDD9B64116B9B0EE002BE025 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD9B64016B9B0EE002BE025 /* UIKit.framework */; };
 		BDD9B64316B9B0EE002BE025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD9B64216B9B0EE002BE025 /* Foundation.framework */; };
 		BDD9B64516B9B0EE002BE025 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD9B64416B9B0EE002BE025 /* CoreGraphics.framework */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD21CE7C16B9B5EE004C1C5B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		BD21CE7F16B9B5F0004C1C5B /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		BDD9B63C16B9B0EE002BE025 /* ButtonFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD9B64016B9B0EE002BE025 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BDD9B64216B9B0EE002BE025 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +93,8 @@
 		BDD9B63116B9B0EE002BE025 = {
 			isa = PBXGroup;
 			children = (
+				BD21CE7F16B9B5F0004C1C5B /* icon@2x.png */,
+				BD21CE7C16B9B5EE004C1C5B /* icon.png */,
 				BDD9B64616B9B0EE002BE025 /* ButtonFun */,
 				BDD9B66D16B9B0EF002BE025 /* ButtonFunTests */,
 				BDD9B63F16B9B0EE002BE025 /* Frameworks */,
@@ -241,6 +247,8 @@
 				BDD9B65716B9B0EE002BE025 /* Default-568h@2x.png in Resources */,
 				BDD9B65A16B9B0EE002BE025 /* MainStoryboard_iPhone.storyboard in Resources */,
 				BDD9B65D16B9B0EE002BE025 /* MainStoryboard_iPad.storyboard in Resources */,
+				BD21CE7D16B9B5EE004C1C5B /* icon.png in Resources */,
+				BD21CE8016B9B5F0004C1C5B /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +470,7 @@
 				BDD9B67A16B9B0EF002BE025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDD9B67B16B9B0EF002BE025 /* Build configuration list for PBXNativeTarget "ButtonFunTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +479,7 @@
 				BDD9B67D16B9B0EF002BE025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
