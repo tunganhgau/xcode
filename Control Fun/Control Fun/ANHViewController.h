@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ANHViewController : UIViewController
+@interface ANHViewController : UIViewController <UIActionSheetDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *nameField;
 
 @property (weak, nonatomic) IBOutlet UITextField *numberField;

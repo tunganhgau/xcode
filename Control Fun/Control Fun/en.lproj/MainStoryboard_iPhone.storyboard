@@ -52,6 +52,9 @@
                                 </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="50" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kod-G0-aqr">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="Xsh-Pk-sif"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -110,7 +113,6 @@
                             <constraint firstItem="kod-G0-aqr" firstAttribute="top" secondItem="3" secondAttribute="top" constant="263" type="user" id="A0l-Jz-v4M"/>
                             <constraint firstItem="1KQ-GC-dqk" firstAttribute="top" relation="lessThanOrEqual" secondItem="3" secondAttribute="top" constant="186" type="user" id="BeU-AC-TDl"/>
                             <constraint firstItem="Td8-hU-4bI" firstAttribute="top" relation="greaterThanOrEqual" secondItem="3" secondAttribute="top" constant="186" type="user" id="Bgc-Bx-mRm"/>
-                            <constraint firstItem="I6G-Mq-CmS" firstAttribute="bottom" secondItem="kod-G0-aqr" secondAttribute="bottom" type="user" id="Heo-Pn-HU3"/>
                             <constraint firstItem="Td8-hU-4bI" firstAttribute="top" secondItem="3" secondAttribute="top" constant="186" type="user" id="Jfe-TC-ZDQ"/>
                             <constraint firstItem="bGd-74-1m2" firstAttribute="top" relation="lessThanOrEqual" secondItem="3" secondAttribute="top" constant="228" type="user" id="OI6-nc-ONd"/>
                             <constraint firstItem="CSe-Q3-A3K" firstAttribute="top" secondItem="3" secondAttribute="top" constant="224" type="user" id="OLX-Wp-JFD"/>
@@ -136,9 +138,9 @@
                             <constraint firstItem="bGd-74-1m2" firstAttribute="top" relation="greaterThanOrEqual" secondItem="3" secondAttribute="top" constant="228" type="user" id="ljD-Dw-ktE"/>
                             <constraint firstAttribute="trailing" secondItem="5fn-NC-B7o" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="ly8-6J-pn7"/>
                             <constraint firstItem="I6G-Mq-CmS" firstAttribute="top" relation="lessThanOrEqual" secondItem="3" secondAttribute="top" constant="269" type="user" id="lzr-ay-FGX"/>
+                            <constraint firstItem="Wev-CV-GRj" firstAttribute="top" secondItem="I6G-Mq-CmS" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="m0M-IN-1nC"/>
                             <constraint firstItem="CSe-Q3-A3K" firstAttribute="leading" secondItem="bGd-74-1m2" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="n0l-e3-9VV"/>
                             <constraint firstItem="upB-UR-RUV" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="o0Q-0A-ZTn"/>
-                            <constraint firstItem="Wev-CV-GRj" firstAttribute="top" secondItem="kod-G0-aqr" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="oIW-Vz-L6Q"/>
                             <constraint firstItem="1KQ-GC-dqk" firstAttribute="top" secondItem="3" secondAttribute="top" constant="186" type="user" id="pgg-IM-vHz"/>
                             <constraint firstItem="I6G-Mq-CmS" firstAttribute="top" secondItem="3" secondAttribute="top" constant="262" type="user" id="pmE-3t-rjH"/>
                             <constraint firstItem="5fn-NC-B7o" firstAttribute="top" relation="greaterThanOrEqual" secondItem="3" secondAttribute="top" constant="13" type="user" id="qiw-SA-yMe"/>
@@ -175,28 +177,6 @@
     <resources>
         <image name="Penguins.jpg" width="1024" height="768"/>
     </resources>
-    <classes>
-        <class className="ANHViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ANHViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="backgroundTap:"/>
-                <relationship kind="action" name="buttonPressed:"/>
-                <relationship kind="action" name="switchChanged:" candidateClass="UISwitch"/>
-                <relationship kind="action" name="textFieldDoneEditing:"/>
-                <relationship kind="action" name="toggleControls:" candidateClass="UISegmentedControl"/>
-                <relationship kind="action" name="valueChanged:" candidateClass="UISlider"/>
-                <relationship kind="outlet" name="doSomethingButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="leftSwitch" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="nameField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="numberField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="rightSwitch" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="slideValue" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
