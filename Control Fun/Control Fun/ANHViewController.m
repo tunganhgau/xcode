@@ -40,4 +40,27 @@
     self.slideValue.text = [NSString stringWithFormat:@"%d",value];
 }
 
+- (IBAction)switchChanged:(UISwitch *)sender {
+    BOOL setting = sender.isOn;
+    [self.leftSwitch setOn:setting animated:YES];
+    [self.rightSwitch setOn:setting animated:YES];
+}
+
+
+- (IBAction)toggleControls:(UISegmentedControl *)sender {
+    if (sender.selectedSegmentIndex == 0) {
+        self.leftSwitch.hidden = NO;
+        self.rightSwitch.hidden = NO;
+        self.doSomethingButton.hidden = YES;
+    }
+    else {
+        self.leftSwitch.hidden = YES;
+        self.rightSwitch.hidden = YES;
+        self.doSomethingButton.hidden = NO;
+    }
+
+   }
+- (IBAction)buttonPressed:(id)sender {
+    
+}
 @end
