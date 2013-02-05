@@ -7,147 +7,156 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BDF94E2C16C154D400EE93EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF94E2B16C154D400EE93EE /* UIKit.framework */; };
-		BDF94E2E16C154D400EE93EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF94E2D16C154D400EE93EE /* Foundation.framework */; };
-		BDF94E3016C154D400EE93EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF94E2F16C154D400EE93EE /* CoreGraphics.framework */; };
-		BDF94E3616C154D400EE93EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDF94E3416C154D400EE93EE /* InfoPlist.strings */; };
-		BDF94E3816C154D400EE93EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF94E3716C154D400EE93EE /* main.m */; };
-		BDF94E3C16C154D400EE93EE /* ANHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF94E3B16C154D400EE93EE /* ANHAppDelegate.m */; };
-		BDF94E3E16C154D400EE93EE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BDF94E3D16C154D400EE93EE /* Default.png */; };
-		BDF94E4016C154D400EE93EE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDF94E3F16C154D400EE93EE /* Default@2x.png */; };
-		BDF94E4216C154D500EE93EE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDF94E4116C154D400EE93EE /* Default-568h@2x.png */; };
-		BDF94E4A16C154D500EE93EE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF94E4916C154D500EE93EE /* SenTestingKit.framework */; };
-		BDF94E4B16C154D500EE93EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF94E2B16C154D400EE93EE /* UIKit.framework */; };
-		BDF94E4C16C154D500EE93EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF94E2D16C154D400EE93EE /* Foundation.framework */; };
-		BDF94E5416C154D500EE93EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDF94E5216C154D500EE93EE /* InfoPlist.strings */; };
-		BDF94E5716C154D500EE93EE /* View_SwitcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF94E5616C154D500EE93EE /* View_SwitcherTests.m */; };
+		BDF94E6D16C1557500EE93EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF94E6C16C1557500EE93EE /* UIKit.framework */; };
+		BDF94E6F16C1557500EE93EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF94E6E16C1557500EE93EE /* Foundation.framework */; };
+		BDF94E7116C1557500EE93EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF94E7016C1557500EE93EE /* CoreGraphics.framework */; };
+		BDF94E7316C1557500EE93EE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF94E7216C1557500EE93EE /* CoreData.framework */; };
+		BDF94E7916C1557500EE93EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDF94E7716C1557500EE93EE /* InfoPlist.strings */; };
+		BDF94E7B16C1557500EE93EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF94E7A16C1557500EE93EE /* main.m */; };
+		BDF94E7F16C1557500EE93EE /* ANHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF94E7E16C1557500EE93EE /* ANHAppDelegate.m */; };
+		BDF94E8116C1557500EE93EE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BDF94E8016C1557500EE93EE /* Default.png */; };
+		BDF94E8316C1557500EE93EE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDF94E8216C1557500EE93EE /* Default@2x.png */; };
+		BDF94E8516C1557500EE93EE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDF94E8416C1557500EE93EE /* Default-568h@2x.png */; };
+		BDF94E8816C1557500EE93EE /* View_Switcher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDF94E8616C1557500EE93EE /* View_Switcher.xcdatamodeld */; };
+		BDF94E9016C1557500EE93EE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF94E8F16C1557500EE93EE /* SenTestingKit.framework */; };
+		BDF94E9116C1557500EE93EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF94E6C16C1557500EE93EE /* UIKit.framework */; };
+		BDF94E9216C1557500EE93EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF94E6E16C1557500EE93EE /* Foundation.framework */; };
+		BDF94E9316C1557500EE93EE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF94E7216C1557500EE93EE /* CoreData.framework */; };
+		BDF94E9B16C1557500EE93EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDF94E9916C1557500EE93EE /* InfoPlist.strings */; };
+		BDF94E9E16C1557500EE93EE /* View_SwitcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF94E9D16C1557500EE93EE /* View_SwitcherTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BDF94E4D16C154D500EE93EE /* PBXContainerItemProxy */ = {
+		BDF94E9416C1557500EE93EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BDF94E2016C154D400EE93EE /* Project object */;
+			containerPortal = BDF94E6116C1557400EE93EE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BDF94E2716C154D400EE93EE;
+			remoteGlobalIDString = BDF94E6816C1557400EE93EE;
 			remoteInfo = "View Switcher";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BDF94E2816C154D400EE93EE /* View Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDF94E2B16C154D400EE93EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BDF94E2D16C154D400EE93EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		BDF94E2F16C154D400EE93EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BDF94E3316C154D400EE93EE /* View Switcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "View Switcher-Info.plist"; sourceTree = "<group>"; };
-		BDF94E3516C154D400EE93EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BDF94E3716C154D400EE93EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BDF94E3916C154D400EE93EE /* View Switcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View Switcher-Prefix.pch"; sourceTree = "<group>"; };
-		BDF94E3A16C154D400EE93EE /* ANHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANHAppDelegate.h; sourceTree = "<group>"; };
-		BDF94E3B16C154D400EE93EE /* ANHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANHAppDelegate.m; sourceTree = "<group>"; };
-		BDF94E3D16C154D400EE93EE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		BDF94E3F16C154D400EE93EE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		BDF94E4116C154D400EE93EE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		BDF94E4816C154D500EE93EE /* View SwitcherTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "View SwitcherTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDF94E4916C154D500EE93EE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		BDF94E5116C154D500EE93EE /* View SwitcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "View SwitcherTests-Info.plist"; sourceTree = "<group>"; };
-		BDF94E5316C154D500EE93EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BDF94E5516C154D500EE93EE /* View_SwitcherTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View_SwitcherTests.h; sourceTree = "<group>"; };
-		BDF94E5616C154D500EE93EE /* View_SwitcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View_SwitcherTests.m; sourceTree = "<group>"; };
+		BDF94E6916C1557500EE93EE /* View Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF94E6C16C1557500EE93EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BDF94E6E16C1557500EE93EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BDF94E7016C1557500EE93EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BDF94E7216C1557500EE93EE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BDF94E7616C1557500EE93EE /* View Switcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "View Switcher-Info.plist"; sourceTree = "<group>"; };
+		BDF94E7816C1557500EE93EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDF94E7A16C1557500EE93EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDF94E7C16C1557500EE93EE /* View Switcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View Switcher-Prefix.pch"; sourceTree = "<group>"; };
+		BDF94E7D16C1557500EE93EE /* ANHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANHAppDelegate.h; sourceTree = "<group>"; };
+		BDF94E7E16C1557500EE93EE /* ANHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANHAppDelegate.m; sourceTree = "<group>"; };
+		BDF94E8016C1557500EE93EE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BDF94E8216C1557500EE93EE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BDF94E8416C1557500EE93EE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BDF94E8716C1557500EE93EE /* View_Switcher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = View_Switcher.xcdatamodel; sourceTree = "<group>"; };
+		BDF94E8E16C1557500EE93EE /* View SwitcherTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "View SwitcherTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF94E8F16C1557500EE93EE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BDF94E9816C1557500EE93EE /* View SwitcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "View SwitcherTests-Info.plist"; sourceTree = "<group>"; };
+		BDF94E9A16C1557500EE93EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDF94E9C16C1557500EE93EE /* View_SwitcherTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View_SwitcherTests.h; sourceTree = "<group>"; };
+		BDF94E9D16C1557500EE93EE /* View_SwitcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View_SwitcherTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BDF94E2516C154D400EE93EE /* Frameworks */ = {
+		BDF94E6616C1557400EE93EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF94E2C16C154D400EE93EE /* UIKit.framework in Frameworks */,
-				BDF94E2E16C154D400EE93EE /* Foundation.framework in Frameworks */,
-				BDF94E3016C154D400EE93EE /* CoreGraphics.framework in Frameworks */,
+				BDF94E6D16C1557500EE93EE /* UIKit.framework in Frameworks */,
+				BDF94E6F16C1557500EE93EE /* Foundation.framework in Frameworks */,
+				BDF94E7116C1557500EE93EE /* CoreGraphics.framework in Frameworks */,
+				BDF94E7316C1557500EE93EE /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDF94E4416C154D500EE93EE /* Frameworks */ = {
+		BDF94E8A16C1557500EE93EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF94E4A16C154D500EE93EE /* SenTestingKit.framework in Frameworks */,
-				BDF94E4B16C154D500EE93EE /* UIKit.framework in Frameworks */,
-				BDF94E4C16C154D500EE93EE /* Foundation.framework in Frameworks */,
+				BDF94E9016C1557500EE93EE /* SenTestingKit.framework in Frameworks */,
+				BDF94E9116C1557500EE93EE /* UIKit.framework in Frameworks */,
+				BDF94E9216C1557500EE93EE /* Foundation.framework in Frameworks */,
+				BDF94E9316C1557500EE93EE /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BDF94E1F16C154D400EE93EE = {
+		BDF94E6016C1557400EE93EE = {
 			isa = PBXGroup;
 			children = (
-				BDF94E3116C154D400EE93EE /* View Switcher */,
-				BDF94E4F16C154D500EE93EE /* View SwitcherTests */,
-				BDF94E2A16C154D400EE93EE /* Frameworks */,
-				BDF94E2916C154D400EE93EE /* Products */,
+				BDF94E7416C1557500EE93EE /* View Switcher */,
+				BDF94E9616C1557500EE93EE /* View SwitcherTests */,
+				BDF94E6B16C1557500EE93EE /* Frameworks */,
+				BDF94E6A16C1557500EE93EE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BDF94E2916C154D400EE93EE /* Products */ = {
+		BDF94E6A16C1557500EE93EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BDF94E2816C154D400EE93EE /* View Switcher.app */,
-				BDF94E4816C154D500EE93EE /* View SwitcherTests.octest */,
+				BDF94E6916C1557500EE93EE /* View Switcher.app */,
+				BDF94E8E16C1557500EE93EE /* View SwitcherTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BDF94E2A16C154D400EE93EE /* Frameworks */ = {
+		BDF94E6B16C1557500EE93EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BDF94E2B16C154D400EE93EE /* UIKit.framework */,
-				BDF94E2D16C154D400EE93EE /* Foundation.framework */,
-				BDF94E2F16C154D400EE93EE /* CoreGraphics.framework */,
-				BDF94E4916C154D500EE93EE /* SenTestingKit.framework */,
+				BDF94E6C16C1557500EE93EE /* UIKit.framework */,
+				BDF94E6E16C1557500EE93EE /* Foundation.framework */,
+				BDF94E7016C1557500EE93EE /* CoreGraphics.framework */,
+				BDF94E7216C1557500EE93EE /* CoreData.framework */,
+				BDF94E8F16C1557500EE93EE /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BDF94E3116C154D400EE93EE /* View Switcher */ = {
+		BDF94E7416C1557500EE93EE /* View Switcher */ = {
 			isa = PBXGroup;
 			children = (
-				BDF94E3A16C154D400EE93EE /* ANHAppDelegate.h */,
-				BDF94E3B16C154D400EE93EE /* ANHAppDelegate.m */,
-				BDF94E3216C154D400EE93EE /* Supporting Files */,
+				BDF94E7D16C1557500EE93EE /* ANHAppDelegate.h */,
+				BDF94E7E16C1557500EE93EE /* ANHAppDelegate.m */,
+				BDF94E8616C1557500EE93EE /* View_Switcher.xcdatamodeld */,
+				BDF94E7516C1557500EE93EE /* Supporting Files */,
 			);
 			path = "View Switcher";
 			sourceTree = "<group>";
 		};
-		BDF94E3216C154D400EE93EE /* Supporting Files */ = {
+		BDF94E7516C1557500EE93EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BDF94E3316C154D400EE93EE /* View Switcher-Info.plist */,
-				BDF94E3416C154D400EE93EE /* InfoPlist.strings */,
-				BDF94E3716C154D400EE93EE /* main.m */,
-				BDF94E3916C154D400EE93EE /* View Switcher-Prefix.pch */,
-				BDF94E3D16C154D400EE93EE /* Default.png */,
-				BDF94E3F16C154D400EE93EE /* Default@2x.png */,
-				BDF94E4116C154D400EE93EE /* Default-568h@2x.png */,
+				BDF94E7616C1557500EE93EE /* View Switcher-Info.plist */,
+				BDF94E7716C1557500EE93EE /* InfoPlist.strings */,
+				BDF94E7A16C1557500EE93EE /* main.m */,
+				BDF94E7C16C1557500EE93EE /* View Switcher-Prefix.pch */,
+				BDF94E8016C1557500EE93EE /* Default.png */,
+				BDF94E8216C1557500EE93EE /* Default@2x.png */,
+				BDF94E8416C1557500EE93EE /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BDF94E4F16C154D500EE93EE /* View SwitcherTests */ = {
+		BDF94E9616C1557500EE93EE /* View SwitcherTests */ = {
 			isa = PBXGroup;
 			children = (
-				BDF94E5516C154D500EE93EE /* View_SwitcherTests.h */,
-				BDF94E5616C154D500EE93EE /* View_SwitcherTests.m */,
-				BDF94E5016C154D500EE93EE /* Supporting Files */,
+				BDF94E9C16C1557500EE93EE /* View_SwitcherTests.h */,
+				BDF94E9D16C1557500EE93EE /* View_SwitcherTests.m */,
+				BDF94E9716C1557500EE93EE /* Supporting Files */,
 			);
 			path = "View SwitcherTests";
 			sourceTree = "<group>";
 		};
-		BDF94E5016C154D500EE93EE /* Supporting Files */ = {
+		BDF94E9716C1557500EE93EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BDF94E5116C154D500EE93EE /* View SwitcherTests-Info.plist */,
-				BDF94E5216C154D500EE93EE /* InfoPlist.strings */,
+				BDF94E9816C1557500EE93EE /* View SwitcherTests-Info.plist */,
+				BDF94E9916C1557500EE93EE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,13 +164,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BDF94E2716C154D400EE93EE /* View Switcher */ = {
+		BDF94E6816C1557400EE93EE /* View Switcher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDF94E5A16C154D500EE93EE /* Build configuration list for PBXNativeTarget "View Switcher" */;
+			buildConfigurationList = BDF94EA116C1557500EE93EE /* Build configuration list for PBXNativeTarget "View Switcher" */;
 			buildPhases = (
-				BDF94E2416C154D400EE93EE /* Sources */,
-				BDF94E2516C154D400EE93EE /* Frameworks */,
-				BDF94E2616C154D400EE93EE /* Resources */,
+				BDF94E6516C1557400EE93EE /* Sources */,
+				BDF94E6616C1557400EE93EE /* Frameworks */,
+				BDF94E6716C1557400EE93EE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -169,80 +178,80 @@
 			);
 			name = "View Switcher";
 			productName = "View Switcher";
-			productReference = BDF94E2816C154D400EE93EE /* View Switcher.app */;
+			productReference = BDF94E6916C1557500EE93EE /* View Switcher.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BDF94E4716C154D500EE93EE /* View SwitcherTests */ = {
+		BDF94E8D16C1557500EE93EE /* View SwitcherTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDF94E5D16C154D500EE93EE /* Build configuration list for PBXNativeTarget "View SwitcherTests" */;
+			buildConfigurationList = BDF94EA416C1557500EE93EE /* Build configuration list for PBXNativeTarget "View SwitcherTests" */;
 			buildPhases = (
-				BDF94E4316C154D500EE93EE /* Sources */,
-				BDF94E4416C154D500EE93EE /* Frameworks */,
-				BDF94E4516C154D500EE93EE /* Resources */,
-				BDF94E4616C154D500EE93EE /* ShellScript */,
+				BDF94E8916C1557500EE93EE /* Sources */,
+				BDF94E8A16C1557500EE93EE /* Frameworks */,
+				BDF94E8B16C1557500EE93EE /* Resources */,
+				BDF94E8C16C1557500EE93EE /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BDF94E4E16C154D500EE93EE /* PBXTargetDependency */,
+				BDF94E9516C1557500EE93EE /* PBXTargetDependency */,
 			);
 			name = "View SwitcherTests";
 			productName = "View SwitcherTests";
-			productReference = BDF94E4816C154D500EE93EE /* View SwitcherTests.octest */;
+			productReference = BDF94E8E16C1557500EE93EE /* View SwitcherTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BDF94E2016C154D400EE93EE /* Project object */ = {
+		BDF94E6116C1557400EE93EE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = ANH;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Anh Nguyen";
 			};
-			buildConfigurationList = BDF94E2316C154D400EE93EE /* Build configuration list for PBXProject "View Switcher" */;
+			buildConfigurationList = BDF94E6416C1557400EE93EE /* Build configuration list for PBXProject "View Switcher" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = BDF94E1F16C154D400EE93EE;
-			productRefGroup = BDF94E2916C154D400EE93EE /* Products */;
+			mainGroup = BDF94E6016C1557400EE93EE;
+			productRefGroup = BDF94E6A16C1557500EE93EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BDF94E2716C154D400EE93EE /* View Switcher */,
-				BDF94E4716C154D500EE93EE /* View SwitcherTests */,
+				BDF94E6816C1557400EE93EE /* View Switcher */,
+				BDF94E8D16C1557500EE93EE /* View SwitcherTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BDF94E2616C154D400EE93EE /* Resources */ = {
+		BDF94E6716C1557400EE93EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF94E3616C154D400EE93EE /* InfoPlist.strings in Resources */,
-				BDF94E3E16C154D400EE93EE /* Default.png in Resources */,
-				BDF94E4016C154D400EE93EE /* Default@2x.png in Resources */,
-				BDF94E4216C154D500EE93EE /* Default-568h@2x.png in Resources */,
+				BDF94E7916C1557500EE93EE /* InfoPlist.strings in Resources */,
+				BDF94E8116C1557500EE93EE /* Default.png in Resources */,
+				BDF94E8316C1557500EE93EE /* Default@2x.png in Resources */,
+				BDF94E8516C1557500EE93EE /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDF94E4516C154D500EE93EE /* Resources */ = {
+		BDF94E8B16C1557500EE93EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF94E5416C154D500EE93EE /* InfoPlist.strings in Resources */,
+				BDF94E9B16C1557500EE93EE /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BDF94E4616C154D500EE93EE /* ShellScript */ = {
+		BDF94E8C16C1557500EE93EE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,46 +267,47 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BDF94E2416C154D400EE93EE /* Sources */ = {
+		BDF94E6516C1557400EE93EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF94E3816C154D400EE93EE /* main.m in Sources */,
-				BDF94E3C16C154D400EE93EE /* ANHAppDelegate.m in Sources */,
+				BDF94E7B16C1557500EE93EE /* main.m in Sources */,
+				BDF94E7F16C1557500EE93EE /* ANHAppDelegate.m in Sources */,
+				BDF94E8816C1557500EE93EE /* View_Switcher.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDF94E4316C154D500EE93EE /* Sources */ = {
+		BDF94E8916C1557500EE93EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF94E5716C154D500EE93EE /* View_SwitcherTests.m in Sources */,
+				BDF94E9E16C1557500EE93EE /* View_SwitcherTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BDF94E4E16C154D500EE93EE /* PBXTargetDependency */ = {
+		BDF94E9516C1557500EE93EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BDF94E2716C154D400EE93EE /* View Switcher */;
-			targetProxy = BDF94E4D16C154D500EE93EE /* PBXContainerItemProxy */;
+			target = BDF94E6816C1557400EE93EE /* View Switcher */;
+			targetProxy = BDF94E9416C1557500EE93EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BDF94E3416C154D400EE93EE /* InfoPlist.strings */ = {
+		BDF94E7716C1557500EE93EE /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BDF94E3516C154D400EE93EE /* en */,
+				BDF94E7816C1557500EE93EE /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		BDF94E5216C154D500EE93EE /* InfoPlist.strings */ = {
+		BDF94E9916C1557500EE93EE /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BDF94E5316C154D500EE93EE /* en */,
+				BDF94E9A16C1557500EE93EE /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -305,7 +315,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BDF94E5816C154D500EE93EE /* Debug */ = {
+		BDF94E9F16C1557500EE93EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,11 +343,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BDF94E5916C154D500EE93EE /* Release */ = {
+		BDF94EA016C1557500EE93EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,12 +367,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		BDF94E5B16C154D500EE93EE /* Debug */ = {
+		BDF94EA216C1557500EE93EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -374,7 +382,7 @@
 			};
 			name = Debug;
 		};
-		BDF94E5C16C154D500EE93EE /* Release */ = {
+		BDF94EA316C1557500EE93EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -385,7 +393,7 @@
 			};
 			name = Release;
 		};
-		BDF94E5E16C154D500EE93EE /* Debug */ = {
+		BDF94EA516C1557500EE93EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/View Switcher.app/View Switcher";
@@ -402,7 +410,7 @@
 			};
 			name = Debug;
 		};
-		BDF94E5F16C154D500EE93EE /* Release */ = {
+		BDF94EA616C1557500EE93EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/View Switcher.app/View Switcher";
@@ -422,32 +430,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BDF94E2316C154D400EE93EE /* Build configuration list for PBXProject "View Switcher" */ = {
+		BDF94E6416C1557400EE93EE /* Build configuration list for PBXProject "View Switcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BDF94E5816C154D500EE93EE /* Debug */,
-				BDF94E5916C154D500EE93EE /* Release */,
+				BDF94E9F16C1557500EE93EE /* Debug */,
+				BDF94EA016C1557500EE93EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BDF94E5A16C154D500EE93EE /* Build configuration list for PBXNativeTarget "View Switcher" */ = {
+		BDF94EA116C1557500EE93EE /* Build configuration list for PBXNativeTarget "View Switcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BDF94E5B16C154D500EE93EE /* Debug */,
-				BDF94E5C16C154D500EE93EE /* Release */,
+				BDF94EA216C1557500EE93EE /* Debug */,
+				BDF94EA316C1557500EE93EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		BDF94E5D16C154D500EE93EE /* Build configuration list for PBXNativeTarget "View SwitcherTests" */ = {
+		BDF94EA416C1557500EE93EE /* Build configuration list for PBXNativeTarget "View SwitcherTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BDF94E5E16C154D500EE93EE /* Debug */,
-				BDF94E5F16C154D500EE93EE /* Release */,
+				BDF94EA516C1557500EE93EE /* Debug */,
+				BDF94EA616C1557500EE93EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDF94E8616C1557500EE93EE /* View_Switcher.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDF94E8716C1557500EE93EE /* View_Switcher.xcdatamodel */,
+			);
+			currentVersion = BDF94E8716C1557500EE93EE /* View_Switcher.xcdatamodel */;
+			path = View_Switcher.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = BDF94E2016C154D400EE93EE /* Project object */;
+	rootObject = BDF94E6116C1557400EE93EE /* Project object */;
 }

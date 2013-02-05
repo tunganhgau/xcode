@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BDF94E2716C154D400EE93EE"
+               BlueprintIdentifier = "BDF94E6816C1557400EE93EE"
                BuildableName = "View Switcher.app"
                BlueprintName = "View Switcher"
                ReferencedContainer = "container:View Switcher.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BDF94E4716C154D500EE93EE"
+               BlueprintIdentifier = "BDF94E8D16C1557500EE93EE"
                BuildableName = "View SwitcherTests.octest"
                BlueprintName = "View SwitcherTests"
                ReferencedContainer = "container:View Switcher.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BDF94E2716C154D400EE93EE"
+            BlueprintIdentifier = "BDF94E6816C1557400EE93EE"
             BuildableName = "View Switcher.app"
             BlueprintName = "View Switcher"
             ReferencedContainer = "container:View Switcher.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BDF94E2716C154D400EE93EE"
+            BlueprintIdentifier = "BDF94E6816C1557400EE93EE"
             BuildableName = "View Switcher.app"
             BlueprintName = "View Switcher"
             ReferencedContainer = "container:View Switcher.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BDF94E2716C154D400EE93EE"
+            BlueprintIdentifier = "BDF94E6816C1557400EE93EE"
             BuildableName = "View Switcher.app"
             BlueprintName = "View Switcher"
             ReferencedContainer = "container:View Switcher.xcodeproj">
