@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDEB6E1F16C3F67000A865B1 /* ANHSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEB6E1E16C3F67000A865B1 /* ANHSwitchViewController.m */; };
+		BDEB6E2216C3F6F300A865B1 /* ANHBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEB6E2116C3F6F300A865B1 /* ANHBlueViewController.m */; };
+		BDEB6E2516C3F70200A865B1 /* ANHYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEB6E2416C3F70200A865B1 /* ANHYellowViewController.m */; };
+		BDEB6E2716C3F78200A865B1 /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDEB6E2616C3F78200A865B1 /* SwitchView.xib */; };
+		BDEB6E2916C3F7B400A865B1 /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDEB6E2816C3F7B400A865B1 /* YellowView.xib */; };
+		BDEB6E2B16C3F7C100A865B1 /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDEB6E2A16C3F7C100A865B1 /* BlueView.xib */; };
 		BDF94E6D16C1557500EE93EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF94E6C16C1557500EE93EE /* UIKit.framework */; };
 		BDF94E6F16C1557500EE93EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF94E6E16C1557500EE93EE /* Foundation.framework */; };
 		BDF94E7116C1557500EE93EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF94E7016C1557500EE93EE /* CoreGraphics.framework */; };
@@ -37,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BDEB6E1D16C3F67000A865B1 /* ANHSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANHSwitchViewController.h; path = "View Switcher/ANHSwitchViewController.h"; sourceTree = "<group>"; };
+		BDEB6E1E16C3F67000A865B1 /* ANHSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ANHSwitchViewController.m; path = "View Switcher/ANHSwitchViewController.m"; sourceTree = "<group>"; };
+		BDEB6E2016C3F6F300A865B1 /* ANHBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANHBlueViewController.h; sourceTree = "<group>"; };
+		BDEB6E2116C3F6F300A865B1 /* ANHBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANHBlueViewController.m; sourceTree = "<group>"; };
+		BDEB6E2316C3F70200A865B1 /* ANHYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANHYellowViewController.h; sourceTree = "<group>"; };
+		BDEB6E2416C3F70200A865B1 /* ANHYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANHYellowViewController.m; sourceTree = "<group>"; };
+		BDEB6E2616C3F78200A865B1 /* SwitchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchView.xib; sourceTree = "<group>"; };
+		BDEB6E2816C3F7B400A865B1 /* YellowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowView.xib; sourceTree = "<group>"; };
+		BDEB6E2A16C3F7C100A865B1 /* BlueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueView.xib; sourceTree = "<group>"; };
 		BDF94E6916C1557500EE93EE /* View Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF94E6C16C1557500EE93EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BDF94E6E16C1557500EE93EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +104,15 @@
 		BDF94E6016C1557400EE93EE = {
 			isa = PBXGroup;
 			children = (
+				BDEB6E1D16C3F67000A865B1 /* ANHSwitchViewController.h */,
+				BDEB6E1E16C3F67000A865B1 /* ANHSwitchViewController.m */,
+				BDEB6E2016C3F6F300A865B1 /* ANHBlueViewController.h */,
+				BDEB6E2116C3F6F300A865B1 /* ANHBlueViewController.m */,
+				BDEB6E2316C3F70200A865B1 /* ANHYellowViewController.h */,
+				BDEB6E2416C3F70200A865B1 /* ANHYellowViewController.m */,
+				BDEB6E2616C3F78200A865B1 /* SwitchView.xib */,
+				BDEB6E2816C3F7B400A865B1 /* YellowView.xib */,
+				BDEB6E2A16C3F7C100A865B1 /* BlueView.xib */,
 				BDF94E7416C1557500EE93EE /* View Switcher */,
 				BDF94E9616C1557500EE93EE /* View SwitcherTests */,
 				BDF94E6B16C1557500EE93EE /* Frameworks */,
@@ -237,6 +261,9 @@
 				BDF94E8116C1557500EE93EE /* Default.png in Resources */,
 				BDF94E8316C1557500EE93EE /* Default@2x.png in Resources */,
 				BDF94E8516C1557500EE93EE /* Default-568h@2x.png in Resources */,
+				BDEB6E2716C3F78200A865B1 /* SwitchView.xib in Resources */,
+				BDEB6E2916C3F7B400A865B1 /* YellowView.xib in Resources */,
+				BDEB6E2B16C3F7C100A865B1 /* BlueView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +301,9 @@
 				BDF94E7B16C1557500EE93EE /* main.m in Sources */,
 				BDF94E7F16C1557500EE93EE /* ANHAppDelegate.m in Sources */,
 				BDF94E8816C1557500EE93EE /* View_Switcher.xcdatamodeld in Sources */,
+				BDEB6E1F16C3F67000A865B1 /* ANHSwitchViewController.m in Sources */,
+				BDEB6E2216C3F6F300A865B1 /* ANHBlueViewController.m in Sources */,
+				BDEB6E2516C3F70200A865B1 /* ANHYellowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +476,7 @@
 				BDF94EA316C1557500EE93EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDF94EA416C1557500EE93EE /* Build configuration list for PBXNativeTarget "View SwitcherTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +485,7 @@
 				BDF94EA616C1557500EE93EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
