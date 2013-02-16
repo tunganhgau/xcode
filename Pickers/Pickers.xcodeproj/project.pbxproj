@@ -24,6 +24,22 @@
 		BDEB6E5F16C4224100A865B1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDEB6E3E16C4224100A865B1 /* CoreData.framework */; };
 		BDEB6E6716C4224100A865B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDEB6E6516C4224100A865B1 /* InfoPlist.strings */; };
 		BDEB6E6A16C4224100A865B1 /* PickersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEB6E6916C4224100A865B1 /* PickersTests.m */; };
+		BDEB6E7616C422C500A865B1 /* ANHDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEB6E7416C422C500A865B1 /* ANHDatePickerViewController.m */; };
+		BDEB6E7716C422C500A865B1 /* ANHDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDEB6E7516C422C500A865B1 /* ANHDatePickerViewController.xib */; };
+		BDEB6E7B16C4230A00A865B1 /* ANHSingleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEB6E7916C4230A00A865B1 /* ANHSingleComponentPickerViewController.m */; };
+		BDEB6E7C16C4230A00A865B1 /* ANHSingleComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDEB6E7A16C4230A00A865B1 /* ANHSingleComponentPickerViewController.xib */; };
+		BDEB6E8016C4232600A865B1 /* ANHDoubleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEB6E7E16C4232600A865B1 /* ANHDoubleComponentPickerViewController.m */; };
+		BDEB6E8116C4232600A865B1 /* ANHDoubleComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDEB6E7F16C4232600A865B1 /* ANHDoubleComponentPickerViewController.xib */; };
+		BDEB6E8516C423A200A865B1 /* ANHDependentComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEB6E8316C423A200A865B1 /* ANHDependentComponentPickerViewController.m */; };
+		BDEB6E8616C423A200A865B1 /* ANHDependentComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDEB6E8416C423A200A865B1 /* ANHDependentComponentPickerViewController.xib */; };
+		BDEB6E8A16C423B800A865B1 /* ANHCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEB6E8816C423B800A865B1 /* ANHCustomPickerViewController.m */; };
+		BDEB6E8B16C423B800A865B1 /* ANHCustomPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDEB6E8916C423B800A865B1 /* ANHCustomPickerViewController.xib */; };
+		BDEB6E9216C4264300A865B1 /* clockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEB6E8D16C4264300A865B1 /* clockicon.png */; };
+		BDEB6E9316C4264300A865B1 /* dependenticon.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEB6E8E16C4264300A865B1 /* dependenticon.png */; };
+		BDEB6E9416C4264300A865B1 /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEB6E8F16C4264300A865B1 /* doubleicon.png */; };
+		BDEB6E9516C4264300A865B1 /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEB6E9016C4264300A865B1 /* singleicon.png */; };
+		BDEB6E9616C4264300A865B1 /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEB6E9116C4264300A865B1 /* toolicon.png */; };
+		BDEB6E9A16C45AD000A865B1 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDEB6E9916C45AD000A865B1 /* TabBarController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +74,27 @@
 		BDEB6E6616C4224100A865B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BDEB6E6816C4224100A865B1 /* PickersTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickersTests.h; sourceTree = "<group>"; };
 		BDEB6E6916C4224100A865B1 /* PickersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickersTests.m; sourceTree = "<group>"; };
+		BDEB6E7316C422C500A865B1 /* ANHDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANHDatePickerViewController.h; sourceTree = "<group>"; };
+		BDEB6E7416C422C500A865B1 /* ANHDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANHDatePickerViewController.m; sourceTree = "<group>"; };
+		BDEB6E7516C422C500A865B1 /* ANHDatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANHDatePickerViewController.xib; sourceTree = "<group>"; };
+		BDEB6E7816C4230A00A865B1 /* ANHSingleComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANHSingleComponentPickerViewController.h; sourceTree = "<group>"; };
+		BDEB6E7916C4230A00A865B1 /* ANHSingleComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANHSingleComponentPickerViewController.m; sourceTree = "<group>"; };
+		BDEB6E7A16C4230A00A865B1 /* ANHSingleComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANHSingleComponentPickerViewController.xib; sourceTree = "<group>"; };
+		BDEB6E7D16C4232600A865B1 /* ANHDoubleComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANHDoubleComponentPickerViewController.h; sourceTree = "<group>"; };
+		BDEB6E7E16C4232600A865B1 /* ANHDoubleComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANHDoubleComponentPickerViewController.m; sourceTree = "<group>"; };
+		BDEB6E7F16C4232600A865B1 /* ANHDoubleComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANHDoubleComponentPickerViewController.xib; sourceTree = "<group>"; };
+		BDEB6E8216C423A200A865B1 /* ANHDependentComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANHDependentComponentPickerViewController.h; sourceTree = "<group>"; };
+		BDEB6E8316C423A200A865B1 /* ANHDependentComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANHDependentComponentPickerViewController.m; sourceTree = "<group>"; };
+		BDEB6E8416C423A200A865B1 /* ANHDependentComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANHDependentComponentPickerViewController.xib; sourceTree = "<group>"; };
+		BDEB6E8716C423B800A865B1 /* ANHCustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANHCustomPickerViewController.h; sourceTree = "<group>"; };
+		BDEB6E8816C423B800A865B1 /* ANHCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANHCustomPickerViewController.m; sourceTree = "<group>"; };
+		BDEB6E8916C423B800A865B1 /* ANHCustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANHCustomPickerViewController.xib; sourceTree = "<group>"; };
+		BDEB6E8D16C4264300A865B1 /* clockicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockicon.png; sourceTree = "<group>"; };
+		BDEB6E8E16C4264300A865B1 /* dependenticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dependenticon.png; sourceTree = "<group>"; };
+		BDEB6E8F16C4264300A865B1 /* doubleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doubleicon.png; sourceTree = "<group>"; };
+		BDEB6E9016C4264300A865B1 /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
+		BDEB6E9116C4264300A865B1 /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
+		BDEB6E9916C45AD000A865B1 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,10 +157,27 @@
 		BDEB6E4016C4224100A865B1 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				BDEB6E7316C422C500A865B1 /* ANHDatePickerViewController.h */,
+				BDEB6E7416C422C500A865B1 /* ANHDatePickerViewController.m */,
+				BDEB6E7516C422C500A865B1 /* ANHDatePickerViewController.xib */,
+				BDEB6E7816C4230A00A865B1 /* ANHSingleComponentPickerViewController.h */,
+				BDEB6E7916C4230A00A865B1 /* ANHSingleComponentPickerViewController.m */,
+				BDEB6E7A16C4230A00A865B1 /* ANHSingleComponentPickerViewController.xib */,
+				BDEB6E7D16C4232600A865B1 /* ANHDoubleComponentPickerViewController.h */,
+				BDEB6E7E16C4232600A865B1 /* ANHDoubleComponentPickerViewController.m */,
+				BDEB6E7F16C4232600A865B1 /* ANHDoubleComponentPickerViewController.xib */,
+				BDEB6E8216C423A200A865B1 /* ANHDependentComponentPickerViewController.h */,
+				BDEB6E8316C423A200A865B1 /* ANHDependentComponentPickerViewController.m */,
+				BDEB6E8416C423A200A865B1 /* ANHDependentComponentPickerViewController.xib */,
+				BDEB6E8716C423B800A865B1 /* ANHCustomPickerViewController.h */,
+				BDEB6E8816C423B800A865B1 /* ANHCustomPickerViewController.m */,
+				BDEB6E8916C423B800A865B1 /* ANHCustomPickerViewController.xib */,
+				BDEB6E8C16C4264300A865B1 /* Tab Bar Icons */,
 				BDEB6E4916C4224100A865B1 /* ANHAppDelegate.h */,
 				BDEB6E4A16C4224100A865B1 /* ANHAppDelegate.m */,
 				BDEB6E5216C4224100A865B1 /* Pickers.xcdatamodeld */,
 				BDEB6E4116C4224100A865B1 /* Supporting Files */,
+				BDEB6E9916C45AD000A865B1 /* TabBarController.xib */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -159,6 +213,19 @@
 				BDEB6E6516C4224100A865B1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDEB6E8C16C4264300A865B1 /* Tab Bar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				BDEB6E8D16C4264300A865B1 /* clockicon.png */,
+				BDEB6E8E16C4264300A865B1 /* dependenticon.png */,
+				BDEB6E8F16C4264300A865B1 /* doubleicon.png */,
+				BDEB6E9016C4264300A865B1 /* singleicon.png */,
+				BDEB6E9116C4264300A865B1 /* toolicon.png */,
+			);
+			name = "Tab Bar Icons";
+			path = "../Tab Bar Icons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +304,17 @@
 				BDEB6E4D16C4224100A865B1 /* Default.png in Resources */,
 				BDEB6E4F16C4224100A865B1 /* Default@2x.png in Resources */,
 				BDEB6E5116C4224100A865B1 /* Default-568h@2x.png in Resources */,
+				BDEB6E7716C422C500A865B1 /* ANHDatePickerViewController.xib in Resources */,
+				BDEB6E7C16C4230A00A865B1 /* ANHSingleComponentPickerViewController.xib in Resources */,
+				BDEB6E8116C4232600A865B1 /* ANHDoubleComponentPickerViewController.xib in Resources */,
+				BDEB6E8616C423A200A865B1 /* ANHDependentComponentPickerViewController.xib in Resources */,
+				BDEB6E8B16C423B800A865B1 /* ANHCustomPickerViewController.xib in Resources */,
+				BDEB6E9216C4264300A865B1 /* clockicon.png in Resources */,
+				BDEB6E9316C4264300A865B1 /* dependenticon.png in Resources */,
+				BDEB6E9416C4264300A865B1 /* doubleicon.png in Resources */,
+				BDEB6E9516C4264300A865B1 /* singleicon.png in Resources */,
+				BDEB6E9616C4264300A865B1 /* toolicon.png in Resources */,
+				BDEB6E9A16C45AD000A865B1 /* TabBarController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +352,11 @@
 				BDEB6E4716C4224100A865B1 /* main.m in Sources */,
 				BDEB6E4B16C4224100A865B1 /* ANHAppDelegate.m in Sources */,
 				BDEB6E5416C4224100A865B1 /* Pickers.xcdatamodeld in Sources */,
+				BDEB6E7616C422C500A865B1 /* ANHDatePickerViewController.m in Sources */,
+				BDEB6E7B16C4230A00A865B1 /* ANHSingleComponentPickerViewController.m in Sources */,
+				BDEB6E8016C4232600A865B1 /* ANHDoubleComponentPickerViewController.m in Sources */,
+				BDEB6E8516C423A200A865B1 /* ANHDependentComponentPickerViewController.m in Sources */,
+				BDEB6E8A16C423B800A865B1 /* ANHCustomPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +529,7 @@
 				BDEB6E6F16C4224100A865B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDEB6E7016C4224100A865B1 /* Build configuration list for PBXNativeTarget "PickersTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +538,7 @@
 				BDEB6E7216C4224100A865B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
