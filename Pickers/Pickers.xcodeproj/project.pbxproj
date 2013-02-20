@@ -172,12 +172,11 @@
 				BDEB6E8716C423B800A865B1 /* ANHCustomPickerViewController.h */,
 				BDEB6E8816C423B800A865B1 /* ANHCustomPickerViewController.m */,
 				BDEB6E8916C423B800A865B1 /* ANHCustomPickerViewController.xib */,
-				BDEB6E8C16C4264300A865B1 /* Tab Bar Icons */,
 				BDEB6E4916C4224100A865B1 /* ANHAppDelegate.h */,
 				BDEB6E4A16C4224100A865B1 /* ANHAppDelegate.m */,
+				BDEB6E9916C45AD000A865B1 /* TabBarController.xib */,
 				BDEB6E5216C4224100A865B1 /* Pickers.xcdatamodeld */,
 				BDEB6E4116C4224100A865B1 /* Supporting Files */,
-				BDEB6E9916C45AD000A865B1 /* TabBarController.xib */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -185,6 +184,7 @@
 		BDEB6E4116C4224100A865B1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BDEB6E8C16C4264300A865B1 /* Tab Bar Icons */,
 				BDEB6E4216C4224100A865B1 /* Pickers-Info.plist */,
 				BDEB6E4316C4224100A865B1 /* InfoPlist.strings */,
 				BDEB6E4616C4224100A865B1 /* main.m */,
