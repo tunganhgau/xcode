@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ANHViewController : UIViewController
+@interface ANHViewController : UIViewController<UIAlertViewDelegate>
 - (IBAction)resetGame:(UIButton *)sender;
 
 @property (weak, nonatomic) IBOutlet UIImageView *board;
@@ -24,6 +24,9 @@
 @property (weak, nonatomic) IBOutlet UIImageView *s8;
 @property (weak, nonatomic) IBOutlet UIImageView *s9;
 
+//@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *squares;
+
+//- (IBAction) squareClicked:(id)sender;
 
 @property (nonatomic, retain) UIImage *xImg;
 @property (nonatomic, retain) UIImage *oImg;

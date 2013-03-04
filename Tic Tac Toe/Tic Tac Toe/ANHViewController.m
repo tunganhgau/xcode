@@ -12,6 +12,7 @@
 
 @interface ANHViewController ()
 @property (copy, nonatomic) NSString  *playerWin;
+@property (nonatomic) int filledSquares;
 @end
 
 @implementation ANHViewController
@@ -38,6 +39,7 @@
     self.xImg = [UIImage imageNamed:@"X.png"];
     self.player = 1;
     self.whoseTurn.text = @"X can go";
+    self.filledSquares = 0;
 }
 
 - (void)didReceiveMemoryWarning
@@ -62,6 +64,7 @@
 }
 
 - (BOOL) checkForWin{
+    self.filledSquares++;
     UIImage *winner;
     if (s1.image == s2.image && s2.image == s3.image && s1.image != nil) {
         winner = s1.image;
@@ -96,20 +99,32 @@
                 self.playerWin = @"O";
         }
         [self declareWinner];
-        [self resetBoard];
         return 1;
     }
+    
     else {
         [self updatePlayerInfo];
+        if (self.filledSquares==9) {
+            [self drawAlert];
+        }
         return 0;
     }
 }
 
 - (void) declareWinner{
     NSString *message = [NSString stringWithFormat:@"Player %@ won the game", self.playerWin];
-    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Congratulations" message:message   delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Congratulations" message:message   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [alert show];
+}
+
+- (void) drawAlert{
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Draw" message:@"Let's play another game"   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     [alert show];
     
+}
+
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex{
+    [self resetBoard];
 }
 
 - (void) resetBoard{
@@ -124,6 +139,7 @@
     self.s9.image = nil;
     self.player = 1;
     self.whoseTurn.text = @"X can go";
+    self.filledSquares = 0;
 }
 
 - (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
@@ -131,53 +147,110 @@
     
     //check to see if the point that was touched is in one of the UIImage views
     if(CGRectContainsPoint([self.s1 frame], [touch locationInView:self.view])){
-        if(self.player==1){ self.s1.image = self.xImg; }
-        if(self.player==2){ self.s1.image = oImg; }
+        if (s1.image) {
+            [self illegalMoveAlert];
+        }
+        else{
+            if(self.player==1){ self.s1.image = self.xImg; }
+            if(self.player==2){ self.s1.image = oImg; }
+            [self checkForWin];
+        }
     }
     
     if(CGRectContainsPoint([self.s2 frame], [touch locationInView:self.view])){
-        if(self.player==1){ s2.image = xImg; }
-        if(self.player==2){ s2.image = oImg; }
+        if (s2.image) {
+            [self illegalMoveAlert];
+        }
+        else{
+            if(self.player==1){ s2.image = xImg; }
+            if(self.player==2){ s2.image = oImg; }
+            [self checkForWin];
+        }
     }
     
     if(CGRectContainsPoint([s3 frame], [touch locationInView:self.view])){
-        if(self.player==1){ s3.image = xImg; }
-        if(self.player==2){ s3.image = oImg; }
+        if (s3.image) {
+            [self illegalMoveAlert];
+        }
+        else{
+            if(self.player==1){ s3.image = xImg; }
+            if(self.player==2){ s3.image = oImg; }
+            [self checkForWin];
+        }
     }
     
     if(CGRectContainsPoint([s4 frame], [touch locationInView:self.view])){
-        if(player==1){ s4.image = xImg; }
-        if(player==2){ s4.image = oImg; }
+        if (s4.image) {
+            [self illegalMoveAlert];
+        }
+        else{
+            if(player==1){ s4.image = xImg; }
+            if(player==2){ s4.image = oImg; }
+            [self checkForWin];
+        }
     }
     
     if(CGRectContainsPoint([s5 frame], [touch locationInView:self.view])){
-        if(player==1){ s5.image = xImg; }
-        if(player==2){ s5.image = oImg; }
+        if (s5.image) {
+            [self illegalMoveAlert];
+        }
+        else{
+            if(player==1){ s5.image = xImg; }
+            if(player==2){ s5.image = oImg; }
+            [self checkForWin];
+        }
     }
     
     
     if(CGRectContainsPoint([s6 frame], [touch locationInView:self.view])){
-        if(player==1){ s6.image = xImg; }
-        if(player==2){ s6.image = oImg; }
+        if (s6.image) {
+            [self illegalMoveAlert];
+        }
+        else{
+            if(player==1){ s6.image = xImg; }
+            if(player==2){ s6.image = oImg; }
+            [self checkForWin];
+        }
     }
     
     if(CGRectContainsPoint([s7 frame], [touch locationInView:self.view])){
-        if(player==1){ s7.image = xImg; }
-        if(player==2){ s7.image = oImg; }
+        if (s7.image) {
+            [self illegalMoveAlert];
+        }
+        else{
+            if(player==1){ s7.image = xImg; }
+            if(player==2){ s7.image = oImg; }
+            [self checkForWin];
+        }
     }
     
     if(CGRectContainsPoint([s8 frame], [touch locationInView:self.view])){
-        if(player==1){ s8.image = xImg; }
-        if(player==2){ s8.image = oImg; }
+        if (s8.image) {
+            [self illegalMoveAlert];
+        }
+        else{
+            if(player==1){ s8.image = xImg; }
+            if(player==2){ s8.image = oImg; }
+            [self checkForWin];
+        }
     }
     
     if(CGRectContainsPoint([s9 frame], [touch locationInView:self.view])){
-        if(player==1){ s9.image = xImg; }
-        if(player==2){ s9.image = oImg; }
+        if (s9.image) {
+            [self illegalMoveAlert];
+        }
+        else{
+            if(player==1){ s9.image = xImg; }
+            if(player==2){ s9.image = oImg; }
+            [self checkForWin];
+        }
     }
     
     
-    [self checkForWin];
-    
+}
+
+- (void ) illegalMoveAlert{
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Oooops" message:@"You cannot make this move"   delegate:nil cancelButtonTitle:@"Sorry" otherButtonTitles:nil, nil];
+    [alert show];
 }
 @end
