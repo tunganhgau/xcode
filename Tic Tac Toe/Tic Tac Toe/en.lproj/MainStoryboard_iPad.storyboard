@@ -124,29 +124,6 @@
     <resources>
         <image name="board.png" width="600" height="600"/>
     </resources>
-    <classes>
-        <class className="ANHViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ANHViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="resetGame:" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="board" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="resetButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="s1" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="s2" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="s3" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="s4" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="s5" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="s6" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="s7" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="s8" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="s9" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="whoseTurn" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>

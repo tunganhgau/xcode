@@ -7,7 +7,7 @@
 //
 
 #import "ANHViewController.h"
-
+#import "ANHComputer.h"
 
 
 @interface ANHViewController ()
