@@ -13,4 +13,6 @@
 @property (strong, nonatomic) NSString *suit;
 @property (nonatomic) NSInteger rank;
 
++ (NSArray *) validSuit;
+
 @end

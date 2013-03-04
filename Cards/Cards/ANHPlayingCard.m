@@ -15,4 +15,8 @@
     return [rankedStrings[self.rank] stringByAppendingString:self.suit];
 }
 
++ (NSArray *) validSuit{
+    return @[@"
+}
+
 @end
