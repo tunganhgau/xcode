@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD922B2216E5692F00261599 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = BD922B2116E5692F00261599 /* 57.png */; };
+		BD922B2416E5693100261599 /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = BD922B2316E5693100261599 /* 114.png */; };
 		BDDFBA5316E446800036CFD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDFBA5216E446800036CFD2 /* UIKit.framework */; };
 		BDDFBA5516E446800036CFD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDFBA5416E446800036CFD2 /* Foundation.framework */; };
 		BDDFBA5716E446800036CFD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDFBA5616E446800036CFD2 /* CoreGraphics.framework */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD922B2116E5692F00261599 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		BD922B2316E5693100261599 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
 		BDDFBA4F16E446800036CFD2 /* Tic Tac Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic Tac Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDFBA5216E446800036CFD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BDDFBA5416E446800036CFD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,6 +71,8 @@
 		BDDFBA4616E446800036CFD2 = {
 			isa = PBXGroup;
 			children = (
+				BD922B2316E5693100261599 /* 114.png */,
+				BD922B2116E5692F00261599 /* 57.png */,
 				BDDFBA5816E446800036CFD2 /* Tic Tac Toe */,
 				BDDFBA5116E446800036CFD2 /* Frameworks */,
 				BDDFBA5016E446800036CFD2 /* Products */,
@@ -134,6 +140,7 @@
 				BDDFBA4B16E446800036CFD2 /* Sources */,
 				BDDFBA4C16E446800036CFD2 /* Frameworks */,
 				BDDFBA4D16E446800036CFD2 /* Resources */,
+				50524F424C454D533F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -185,10 +192,29 @@
 				BDDFBA7D16E451640036CFD2 /* board.png in Resources */,
 				BDE0883816E5325C008677CD /* O.png in Resources */,
 				BDE0883A16E53263008677CD /* x.png in Resources */,
+				BD922B2216E5692F00261599 /* 57.png in Resources */,
+				BD922B2416E5693100261599 /* 114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50524F424C454D533F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Library/JailCoder/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Library/JailCoder/Entitlements/Entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 
 /* Begin PBXSourcesBuildPhase section */
 		BDDFBA4B16E446800036CFD2 /* Sources */ = {
@@ -244,7 +270,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -276,7 +302,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
