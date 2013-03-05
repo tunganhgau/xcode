@@ -36,7 +36,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     self.oImg = [UIImage imageNamed:@"O.png"];
-    self.xImg = [UIImage imageNamed:@"X.png"];
+    self.xImg = [UIImage imageNamed:@"x.png"];
     self.player = 1;
     self.whoseTurn.text = @"X can go";
     self.filledSquares = 0;
